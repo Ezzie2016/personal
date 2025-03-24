@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "PERSONAL",
+			"path": ".."
+		},
+		{
+			"name": "11.2 Bootstrap Components",
+			"path": "../../../Downloads/11.2 Bootstrap Components"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PERSONAL"
+	}
+}

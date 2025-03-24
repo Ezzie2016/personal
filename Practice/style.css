@@ -1,0 +1,107 @@
+/* Theme: default */
+        body{
+            background-color:antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            width: 100%;
+            overflow: hidden;
+        }
+        header{
+            background: #333;
+            color: #fff;
+            padding-top: 0px;
+            min-height: 70px;
+            border-bottom: 1px solid #eaeaea;
+            width: 100%;
+        }
+        header h1{
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+        nav{
+            float: right;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background: #444;
+        }
+        .main{
+            padding: 20px;
+        }
+        .image{
+            width: 200px;
+            height: 200px;
+            float: right;
+            margin: 0 0 20px 20px;
+        }
+        .image1{
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin: 0 20px 20px 0;
+        }
+        .img1{
+            display: inline;
+        width: 100px;
+        height: 100px;
+        float: left;
+   
+        }
+        .img2{
+        display: inline;
+        width: 100px;
+        height: 100px;
+        float: right;
+        }
+        @media (max-width: 700px)
+        {
+            .logo{
+                width: 100px;
+                height: 100px;
+            }
+            header h1{
+                padding-top: 0px;
+                font-size: 12px;
+                font-weight:bold;;
+            }
+            nav ul li{
+                display: inline;
+                padding: 10px 20px;
+            }
+
+        }
+        .footer{
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;  
+            margin: 0;     
+        }
+
+        
+

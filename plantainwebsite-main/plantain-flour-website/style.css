@@ -1,0 +1,78 @@
+
+.no-style{
+    text-decoration: none;
+    color: inherit;
+}
+    h1{
+        text-align: center;
+        color: #790B00;
+    }
+    .welcome-link{
+        text-align: center;
+    }
+    .custom-linkk{
+        color: #FF6F61;
+        text-decoration: none;
+    }
+    h2{
+        color: #FF6F61;
+        text-align: left;
+    }
+    body {
+        font-family:serif;
+        margin: 0;
+        background-color: #c5ff61;
+    }
+
+    header {
+        background-color: #F8C548;
+        color: #FF6F61;
+        text-align: right;
+        padding: 2em;
+
+    }
+    @media (max-width: 600px) {
+    }
+        header {
+            text-align: center;
+        }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .header-img{ /* header image: this is basically for the div container. The div is like a box by the way */
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+        object-fit: cover;
+        border: none;
+        background-color: transparent;
+        
+    .header-img img{ /* header image: this is for the image itself */   
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+        border: none;
+    }
+    nav ul li{
+        display:inline;
+        margin-right: 2em;
+    }
+    main {
+        padding: 1em;
+    }
+    footer {
+        background-color: #F8C548;
+        color: #FF6F61;
+        text-align: center;
+        padding: 1em;
+    }
+    section{
+        margin-top: 3em;
+    }
