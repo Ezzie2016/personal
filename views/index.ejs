@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie registration form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h2>Welcome to HiMovies!</h2>
+        <p>What would you like to do?</p>
+        <nav>
+        <ul>
+            <li><a href="register_movie.html">Register a Movie</a></li>
+            <li><a href="watch_movie.html">Watch a Movie</a></li>
+            <li><a href="download_movie.html">Download a Movie</a></li>
+            <li><a href="stream_movie.html">Stream a Movie</a></li>
+        </ul>
+        </nav>
+        </header>
+    <p>To register a movie, please fill out the form below:</p>
+    <h1>Movie Registration Form</h1>
+    <form action="/" method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="director">Director:</label><br>
+        <input type="text" id="director" name="director" required><br><br>
+
+        <label for="release_year">Release Year:</label><br>
+        <input type="number" id="release_year" name="release_year" required><br><br>
+
+        <label for="genre">Genre:</label><br>
+        <input type="text" id="genre" name="genre"><br><br>
+
+        <input type="submit" value="Register Movie">
+    </form>
+    </div>
+</body>
+</html>
